@@ -8,8 +8,11 @@ http://localhost:5000/
 ---
 
 ---
-node hello.js
----
+>
+> node hello.js
+> 
 > git --version
+> 
 > npm -v
+> 
 > node -v
