@@ -9,6 +9,8 @@ http://localhost:5000/
 
 ---
 >
+> npm init -y
+>
 > node hello.js
 > 
 > git --version
