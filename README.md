@@ -9,6 +9,8 @@ http://localhost:5000/
 
 ---
 >
+> npm install bootstrap@5.3.0
+> 
 > npm init -y
 >
 > node hello.js
