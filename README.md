@@ -7,11 +7,12 @@ http://localhost:5000/
 
 ---
 
-> 
-> tsc message.ts
+>
+> npm start
 >
 > node .\message.js
-
+> 
+> tsc message.ts
 
 ### run cmd as admin to allow running scripts:
 > Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
