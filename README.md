@@ -7,8 +7,27 @@ http://localhost:5000/
 
 ---
 
----
+> 
+> tsc message.ts
 >
+> node .\message.js
+
+
+### run cmd as admin to allow running scripts:
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+> 
+> npm audit fix --force
+>
+> npm audit
+>
+> npm install --save-dev nodemon@2.0.20
+>
+> npm list --all
+> 
+> npm list
+>
+> npm install --save-dev typescript@5.2.2 tsc-watch@6.0.4
+> 
 > npm install bootstrap@5.3.0
 > 
 > npm init -y
