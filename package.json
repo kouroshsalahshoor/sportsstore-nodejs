@@ -1,0 +1,33 @@
+{
+  "name": "sportsstore-nodejs",
+  "version": "1.0.0",
+  "description": "> npm start\r > \r > http://localhost:5000/\r > \r > npm run go\r > \r > npm start\r > \r > npx tsc message.ts\r > \r > node .\\message.js\r > \r > tsc message.ts\r > \r run cmd as admin to allow running scripts:\r > Set-ExecutionPolicy -ExecutionPolicy RemoteSigned\r > \r > npm audit fix --force\r > \r > npm audit\r > \r > npm install --save-dev nodemon@2.0.20\r > \r > npm list --all\r > \r > npm list\r > \r > npm install --save-dev typescript@5.2.2 tsc-watch@6.0.4\r > \r > npm install bootstrap@5.3.0\r > \r > npm init -y\r ---\r > node hello.js\r > \r > cd .\\chapters\\2\\\r ---\r > git --version\r > \r > npm -v\r > \r > node -v",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc-watch --noClear --onsuccess \"node dist/server.js\"",
+    "start": "nodemon --exec npm run watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "nodemonConfig": {
+    "ext": "js,handlebars,json",
+    "ignore": [ "dist/**", "node_modules/**" ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kouroshsalahshoor/sportsstore-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kouroshsalahshoor/sportsstore-nodejs/issues"
+  },
+  "homepage": "https://github.com/kouroshsalahshoor/sportsstore-nodejs#readme",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.6.1",
+    "nodemon": "^3.0.3",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.2.2"
+  }
+}
