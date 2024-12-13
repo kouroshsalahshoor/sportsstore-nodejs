@@ -35,7 +35,7 @@ run cmd as admin to allow running scripts:
 ---
 > node hello.js
 > 
-> cd .\chapters\1\
+> cd .\chapters\2\
 ---
 > git --version
 > 
